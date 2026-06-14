@@ -1,42 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Api\\PrintManager.Users.Api.csproj": {}
+    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Api/PrintManager.Users.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Api\\PrintManager.Users.Api.csproj": {
+    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Api/PrintManager.Users.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Api\\PrintManager.Users.Api.csproj",
+        "projectUniqueName": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Api/PrintManager.Users.Api.csproj",
         "projectName": "PrintManager.Users.Api",
-        "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Api\\PrintManager.Users.Api.csproj",
-        "packagesPath": "C:\\Users\\fagne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Api\\obj\\",
+        "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Api/PrintManager.Users.Api.csproj",
+        "packagesPath": "/Users/joycemuniz/.nuget/packages/",
+        "outputPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/joycemuniz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj": {
-                "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj"
+              "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj": {
+                "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj"
               },
-              "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj": {
-                "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj"
+              "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj": {
+                "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj"
               }
             }
           }
@@ -45,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -81,40 +69,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj": {
+    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj",
+        "projectUniqueName": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj",
         "projectName": "PrintManager.Users.Application",
-        "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj",
-        "packagesPath": "C:\\Users\\fagne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\obj\\",
+        "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj",
+        "packagesPath": "/Users/joycemuniz/.nuget/packages/",
+        "outputPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/joycemuniz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj": {
-                "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj"
+              "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj": {
+                "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj"
               }
             }
           }
@@ -123,13 +105,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -150,32 +126,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj": {
+    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj",
+        "projectUniqueName": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj",
         "projectName": "PrintManager.Users.Domain",
-        "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj",
-        "packagesPath": "C:\\Users\\fagne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\obj\\",
+        "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj",
+        "packagesPath": "/Users/joycemuniz/.nuget/packages/",
+        "outputPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/joycemuniz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -188,13 +158,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -221,40 +185,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj": {
+    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj",
+        "projectUniqueName": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj",
         "projectName": "PrintManager.Users.Infra",
-        "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj",
-        "packagesPath": "C:\\Users\\fagne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Infra\\obj\\",
+        "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj",
+        "packagesPath": "/Users/joycemuniz/.nuget/packages/",
+        "outputPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/joycemuniz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj": {
-                "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj"
+              "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj": {
+                "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj"
+              },
+              "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj": {
+                "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj"
               }
             }
           }
@@ -263,13 +224,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -283,13 +238,25 @@
               "target": "Package",
               "version": "[10.0.8, )"
             },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[10.0.8, )"
             },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.19.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.19.1, )"
             }
           },
           "imports": [
@@ -308,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

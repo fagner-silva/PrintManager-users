@@ -27,9 +27,7 @@ namespace PrintManager.Users.Application.Services
 
         public async Task<ApiResponse<UserResponse>> RegisterAsync(RegisterUserRequest request)
         {
-            var userExists = await _userRepository.GetByEmailAsync(request.Email);
-
-            if (userExists is not null)
+            if (await _userRepository.ExistsByEmailAsync(request.Email))
             {
                 return new ApiResponse<UserResponse>
                 {

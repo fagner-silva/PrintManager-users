@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 
 namespace PrintManager.Users.Application.Mappers
 {
-    public class UserMapper
+    using PrintManager.Users.Application.Interfaces;
+
+    public class UserMapper : IUserMapper
     {
-        public static UserResponse MapToUserResponse(User user)
+        public UserResponse MapToUserResponse(User user)
         {
             return new UserResponse
             {

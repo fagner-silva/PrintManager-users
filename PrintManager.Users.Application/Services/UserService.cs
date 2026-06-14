@@ -30,9 +30,7 @@ namespace PrintManager.Users.Application.Services
 
         public async Task<ApiResponse<UserResponse>> RegisterAsync(RegisterUserRequest request)
         {
-            var userExists = await _userRepository.GetByEmailAsync(request.Email);
-
-            if (userExists is not null)
+            if (await _userRepository.ExistsByEmailAsync(request.Email))
             {
                 return new ApiResponse<UserResponse>
                 {
@@ -73,7 +71,7 @@ namespace PrintManager.Users.Application.Services
                 return validationResult;
 
             var token = _jwtService.GenerateToken(user!);
-            return BuildLoginSuccessResponse(user, token);
+            return BuildLoginSuccessResponse(user!, token);
         }
 
         private ApiResponse<LoginResponse> BuildLoginSuccessResponse(User user, string token)

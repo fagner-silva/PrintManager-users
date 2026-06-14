@@ -1,0 +1,87 @@
+# .gitignore for a .NET 8 solution (Visual Studio / Rider / VSCode)
+
+# Build artifacts
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+.project.lock.json
+packages/
+
+# Dotnet publish
+PublishProfiles/
+
+# Logs, reports, test results
+TestResults/
+*.trx
+*.log
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Runtime files
+*.pid
+*.seed
+*.db
+*.sqlite
+
+# Generated files
+**/*.g.cs
+**/*.g.i.cs
+**/*.generated.cs
+
+# User secrets and environment files
+appsettings.*.json
+secrets.json
+.env
+.env.*
+
+# Rider/IDE caches and settings
+*.idea/*
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tooling
+.releasenotes
+
+# Coverage and profiling
+*.out
+*.result
+
+# Temporary
+*.tmp
+*.temp
+
+# Ignore compiled binaries
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Lock files (if any node tooling sneaks in)
+node_modules/
+package-lock.json
+/yarn.lock
+
+# Allow local overrides: if you want to track appsettings.json, remove the pattern above
+

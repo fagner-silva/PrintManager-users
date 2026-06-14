@@ -1,0 +1,44 @@
+using Microsoft.AspNetCore.Mvc;
+using PrintManager.Users.Application.Interfaces;
+using PrintManager.Users.Application.Models.Requests;
+using PrintManager.Users.Application.Models.Responses;
+
+namespace PrintManager.Users.Api.Controllers;
+
+[ApiController]
+[Route("api/users")]
+public class UsersController : ControllerBase
+{
+    private readonly IUserService _userService;
+
+    public UsersController(IUserService userService)
+    {
+        _userService = userService;
+    }
+
+    [HttpPost("register")]
+    [ProducesResponseType(typeof(ApiResponse<UserResponse>), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ApiResponse<UserResponse>), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Register([FromBody] RegisterUserRequest request)
+    {
+        var response = await _userService.RegisterAsync(request);
+
+        if (!response.Success)
+            return BadRequest(response);
+
+        return Created(string.Empty, response);
+    }
+
+    [HttpPost("login")]
+    [ProducesResponseType(typeof(ApiResponse<LoginResponse>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse<LoginResponse>), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Login([FromBody] LoginRequest request)
+    {
+        var response = await _userService.LoginAsync(request);
+
+        if (!response.Success)
+            return BadRequest(response);
+
+        return Ok(response);
+    }
+}
