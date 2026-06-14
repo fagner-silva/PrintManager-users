@@ -1,0 +1,45 @@
+﻿using PrintManager.Users.Application.Models.Responses;
+using PrintManager.Users.Domain.Entities;
+using PrintManager.Users.Domain.Interfaces;
+
+namespace PrintManager.Users.Application.Validators
+{
+    public class UserValidator
+    {
+        private readonly IPasswordHasher _passwordHasher;
+
+        public UserValidator(IPasswordHasher passwordHasher)
+        {
+            _passwordHasher = passwordHasher;
+        }
+
+        public ApiResponse<LoginResponse> ValidateLogin(User? user, string password)
+        {
+            if (user is null)
+                return LoginError("Usuário ou senha inválidos.");
+
+            if (!user.IsActive)
+                return LoginError("Usuário inativo.");
+
+            if (user.IsBlocked)
+                return LoginError("Usuário bloqueado.");
+
+            if (!_passwordHasher.VerifyPassword(password, user.PasswordHash))
+                return LoginError("Usuário ou senha inválidos.");
+
+            return new ApiResponse<LoginResponse>
+            {
+                Success = true
+            };
+        }
+
+        private static ApiResponse<LoginResponse> LoginError(string message)
+        {
+            return new ApiResponse<LoginResponse>
+            {
+                Success = false,
+                Message = message
+            };
+        }
+    }
+}

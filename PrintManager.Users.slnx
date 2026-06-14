@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PrintManager.Users.Api/PrintManager.Users.Api.csproj" />
+  <Project Path="PrintManager.Users.Application/PrintManager.Users.Application.csproj" />
+  <Project Path="PrintManager.Users.Domain/PrintManager.Users.Domain.csproj" />
+  <Project Path="PrintManager.Users.Infra/PrintManager.Users.Infra.csproj" />
+</Solution>
