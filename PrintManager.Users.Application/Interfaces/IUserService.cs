@@ -12,5 +12,7 @@ namespace PrintManager.Users.Application.Interfaces
     {
         Task<ApiResponse<UserResponse>> RegisterAsync(RegisterUserRequest request);
         Task<ApiResponse<LoginResponse>> LoginAsync(LoginRequest request);
+        Task<ApiResponse<MeResponse>> GetMeAsync(string userId);
+        Task<ApiResponse<object>> ChangePasswordAsync(string userId,ChangePasswordRequest request);
     }
 }

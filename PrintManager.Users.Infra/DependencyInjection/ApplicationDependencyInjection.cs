@@ -14,6 +14,8 @@ public static class ApplicationDependencyInjection
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IUserMapper, UserMapper>();
         services.AddScoped<IUserValidator, UserValidator>();
+        services.AddScoped<ICompanyService, CompanyService>();
+        services.AddScoped<ICompanyMemberService, CompanyMemberService>();
 
         return services;
     }

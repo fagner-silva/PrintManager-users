@@ -9,13 +9,26 @@ namespace PrintManager.Users.Infra.Context
     {
         public IMongoCollection<User> Users { get; }
 
+        public IMongoCollection<Company> Companies { get; }
+
+        public IMongoCollection<CompanyMember> CompanyMembers { get; }
+
         public MongoContext(IOptions<MongoDbSettings> settings)
         {
-            var mongoClient = new MongoClient(settings.Value.ConnectionString);
+            var mongoClient =
+                new MongoClient(settings.Value.ConnectionString);
 
-            var database = mongoClient.GetDatabase(settings.Value.DatabaseName);
+            var database =
+                mongoClient.GetDatabase(settings.Value.DatabaseName);
 
-            Users = database.GetCollection<User>(settings.Value.UsersCollectionName);
+            Users = database.GetCollection<User>(
+                settings.Value.UsersCollectionName);
+
+            Companies = database.GetCollection<Company>(
+                settings.Value.CompaniesCollectionName);
+
+            CompanyMembers = database.GetCollection<CompanyMember>(
+                settings.Value.CompanyMembersCollectionName);
         }
     }
 }

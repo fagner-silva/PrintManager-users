@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Bson" Version="3.9.0" />
+    <PackageReference Include="Refit" Version="11.0.1" />
   </ItemGroup>
 
 </Project>

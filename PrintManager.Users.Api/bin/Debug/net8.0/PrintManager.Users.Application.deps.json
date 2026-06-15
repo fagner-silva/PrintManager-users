@@ -15,10 +15,6 @@
         }
       },
       "MongoDB.Bson/3.9.0": {
-        "dependencies": {
-          "System.Memory": "4.5.5",
-          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
-        },
         "runtime": {
           "lib/net6.0/MongoDB.Bson.dll": {
             "assemblyVersion": "3.9.0.0",
@@ -26,14 +22,24 @@
           }
         }
       },
-      "System.Memory/4.5.5": {},
-      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "Refit/11.0.1": {
+        "runtime": {
+          "lib/net8.0/Refit.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
       "PrintManager.Users.Domain/1.0.0": {
         "dependencies": {
-          "MongoDB.Bson": "3.9.0"
+          "MongoDB.Bson": "3.9.0",
+          "Refit": "11.0.1"
         },
         "runtime": {
-          "PrintManager.Users.Domain.dll": {}
+          "PrintManager.Users.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -51,19 +57,12 @@
       "path": "mongodb.bson/3.9.0",
       "hashPath": "mongodb.bson.3.9.0.nupkg.sha512"
     },
-    "System.Memory/4.5.5": {
+    "Refit/11.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
-      "path": "system.memory/4.5.5",
-      "hashPath": "system.memory.4.5.5.nupkg.sha512"
-    },
-    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
-      "path": "system.runtime.compilerservices.unsafe/5.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+      "sha512": "sha512-vGRw/8rgo86MXGNSz7qYD8zXKFJZbDrl41n9fhFFeUMuFo5KKnpVkKTv7ALDeN52CoGAAxghaB+w9P1NKNaH2g==",
+      "path": "refit/11.0.1",
+      "hashPath": "refit.11.0.1.nupkg.sha512"
     },
     "PrintManager.Users.Domain/1.0.0": {
       "type": "project",

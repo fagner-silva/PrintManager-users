@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\",
+  "WorkspaceRootPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60DD5920-7058-42BE-95AA-4057ACA6B96D}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager\\printmanager.users\\printmanager.users.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DD5920-7058-42BE-95AA-4057ACA6B96D}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.application\\services\\companymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\services\\companymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DD5920-7058-42BE-95AA-4057ACA6B96D}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager\\printmanager.users\\printmanager.users.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DD5920-7058-42BE-95AA-4057ACA6B96D}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.application\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3CEA90-38F0-7DDD-44E3-E04C060ACD08}|PrintManager.Users.Api\\PrintManager.Users.Api.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.api\\controllers\\companymemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3CEA90-38F0-7DDD-44E3-E04C060ACD08}|PrintManager.Users.Api\\PrintManager.Users.Api.csproj|solutionrelative:printmanager.users.api\\controllers\\companymemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.application\\interfaces\\icompanymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\interfaces\\icompanymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "PrintManager.Users.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\UserService.cs",
               "RelativeToolTip": "PrintManager.Users.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAwwD0AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAiwJgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T12:07:12.965Z",
+              "WhenOpened": "2026-06-15T18:09:24.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "PrintManager.Users.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager\\PrintManager.Users\\PrintManager.Users.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "PrintManager.Users.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "PrintManager.Users.Application\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyService.cs",
+              "RelativeToolTip": "PrintManager.Users.Application\\Services\\CompanyService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwFIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T12:06:28.64Z",
+              "WhenOpened": "2026-06-15T18:09:02.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICompanyMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Interfaces\\ICompanyMemberService.cs",
+              "RelativeDocumentMoniker": "PrintManager.Users.Application\\Interfaces\\ICompanyMemberService.cs",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Interfaces\\ICompanyMemberService.cs",
+              "RelativeToolTip": "PrintManager.Users.Application\\Interfaces\\ICompanyMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T17:47:39.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyMembersController.cs",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\Controllers\\CompanyMembersController.cs",
+              "RelativeDocumentMoniker": "PrintManager.Users.Api\\Controllers\\CompanyMembersController.cs",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\Controllers\\CompanyMembersController.cs",
+              "RelativeToolTip": "PrintManager.Users.Api\\Controllers\\CompanyMembersController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAkwI8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T17:46:40.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompanyMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
+              "RelativeDocumentMoniker": "PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
+              "RelativeToolTip": "PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAUwNgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T17:46:14.097Z",
               "EditorCaption": ""
             }
           ]

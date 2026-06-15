@@ -26,10 +26,6 @@ public static class UserQueryDesigner
         return Builders<User>.Filter.Eq(user => user.IsBlocked, true);
     }
 
-    public static FilterDefinition<User> ByRole(UserRole role)
-    {
-        return Builders<User>.Filter.Eq(user => user.Role, role);
-    }
     public static FilterDefinition<User> ActiveByEmail(string email)
     {
         return Builders<User>.Filter.And(

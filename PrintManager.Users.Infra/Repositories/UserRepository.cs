@@ -56,4 +56,10 @@ public class UserRepository : IUserRepository
             UserQueryDesigner.ById(user.Id),
             user);
     }
+    public async Task<IEnumerable<User>> GetByIdsAsync(IEnumerable<string> ids)
+    {
+        return await _users
+            .Find(Builders<User>.Filter.In(user => user.Id, ids))
+            .ToListAsync();
+    }
 }

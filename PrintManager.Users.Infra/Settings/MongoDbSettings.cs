@@ -9,5 +9,9 @@
         public string DatabaseName { get; set; } = string.Empty;
 
         public string UsersCollectionName { get; set; } = "users";
+
+        public string CompaniesCollectionName { get; set; } = "companies";
+
+        public string CompanyMembersCollectionName { get; set; } = "company-members";
     }
 }

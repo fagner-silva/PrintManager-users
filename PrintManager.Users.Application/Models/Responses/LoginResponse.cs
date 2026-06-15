@@ -3,6 +3,7 @@
     public class LoginResponse
     {
         public string Token { get; set; } = string.Empty;
-        public UserResponse User { get; set; } = new();
+        public string TokenType { get; set; } = "Bearer";
+        public int ExpiresIn { get; set; }
     }
 }

@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj": {}
+    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj": {}
   },
   "projects": {
-    "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj": {
+    "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj",
         "projectName": "PrintManager.Users.Domain",
-        "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj",
-        "packagesPath": "/Users/joycemuniz/.nuget/packages/",
-        "outputPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/obj/",
+        "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj",
+        "packagesPath": "C:\\Users\\fagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/joycemuniz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -32,15 +39,26 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[3.9.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[11.0.1, )"
             }
           },
           "imports": [
@@ -59,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

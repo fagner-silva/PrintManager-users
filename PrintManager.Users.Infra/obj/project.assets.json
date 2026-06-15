@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "BCrypt.Net-Next/4.2.0": {
@@ -310,6 +310,23 @@
           }
         }
       },
+      "Refit/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Refit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/refit.props": {},
+          "buildTransitive/netstandard2.0/refit.targets": {}
+        }
+      },
       "SharpCompress/0.48.1": {
         "type": "package",
         "compile": {
@@ -468,7 +485,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "MongoDB.Bson": "3.9.0"
+          "MongoDB.Bson": "3.9.0",
+          "Refit": "11.0.1"
         },
         "compile": {
           "bin/placeholder/PrintManager.Users.Domain.dll": {}
@@ -1041,6 +1059,36 @@
         "packageIcon.png"
       ]
     },
+    "Refit/11.0.1": {
+      "sha512": "vGRw/8rgo86MXGNSz7qYD8zXKFJZbDrl41n9fhFFeUMuFo5KKnpVkKTv7ALDeN52CoGAAxghaB+w9P1NKNaH2g==",
+      "type": "package",
+      "path": "refit/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "README.md",
+        "analyzers/dotnet/roslyn3.8/cs/InterfaceStubGeneratorV1.dll",
+        "analyzers/dotnet/roslyn4.1/cs/InterfaceStubGeneratorV2.dll",
+        "analyzers/dotnet/roslyn5.0/cs/InterfaceStubGeneratorV3.dll",
+        "build/netstandard2.0/refit.targets",
+        "buildTransitive/netstandard2.0/refit.props",
+        "buildTransitive/netstandard2.0/refit.targets",
+        "lib/net10.0/Refit.dll",
+        "lib/net10.0/Refit.xml",
+        "lib/net462/Refit.dll",
+        "lib/net462/Refit.xml",
+        "lib/net8.0/Refit.dll",
+        "lib/net8.0/Refit.xml",
+        "lib/net9.0/Refit.dll",
+        "lib/net9.0/Refit.xml",
+        "lib/netstandard2.0/Refit.dll",
+        "lib/netstandard2.0/Refit.xml",
+        "logo.png",
+        "refit.11.0.1.nupkg.sha512",
+        "refit.nuspec"
+      ]
+    },
     "SharpCompress/0.48.1": {
       "sha512": "SqGaVniGG943Gph/gHhUQUiZPyC7y0tXZyMf0/B2oGsMav9dqs7JJOuUA+xOkwKYaWM2TM7aZQjNK91f4bX71A==",
       "type": "package",
@@ -1357,35 +1405,43 @@
     ]
   },
   "packageFolders": {
-    "/Users/joycemuniz/.nuget/packages/": {}
+    "C:\\Users\\fagne\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj",
       "projectName": "PrintManager.Users.Infra",
-      "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/PrintManager.Users.Infra.csproj",
-      "packagesPath": "/Users/joycemuniz/.nuget/packages/",
-      "outputPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Infra/obj/",
+      "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Infra\\PrintManager.Users.Infra.csproj",
+      "packagesPath": "C:\\Users\\fagne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Infra\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/joycemuniz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj": {
-              "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Application/PrintManager.Users.Application.csproj"
+            "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj": {
+              "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\PrintManager.Users.Application.csproj"
             },
-            "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj": {
-              "projectPath": "/Users/joycemuniz/Documents/football-simulator/Print3d/PrintManager-users/PrintManager.Users.Domain/PrintManager.Users.Domain.csproj"
+            "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj": {
+              "projectPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Domain\\PrintManager.Users.Domain.csproj"
             }
           }
         }
@@ -1394,10 +1450,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "BCrypt.Net-Next": {
@@ -1445,7 +1508,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

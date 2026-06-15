@@ -25,6 +25,8 @@ public static class InfraDependencyInjection
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IPasswordHasher, PasswordHasherService>();
         services.AddScoped<IJwtService, JwtService>();
+        services.AddScoped<ICompanyRepository, CompanyRepository>();
+        services.AddScoped<ICompanyMemberRepository, CompanyMemberRepository>();
 
         return services;
     }
