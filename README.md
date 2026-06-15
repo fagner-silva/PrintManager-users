@@ -14,6 +14,10 @@ API de autenticação, usuários, empresas e membros do sistema 3D Print Manager
 
 ## Endpoints principais
 
+PROD:
+- https://printmanager-users.onrender.com/swagger/v1/swagger.json
+- Ligar todo dia
+
 ### Users
 
 - POST /api/users/register
