@@ -50,3 +50,5 @@ jobs:
           pr_title: "[render preview] Release ${{ steps.version.outputs.version }}"
           pr_body: "Release candidate generated automatically after merge into develop."
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+          
