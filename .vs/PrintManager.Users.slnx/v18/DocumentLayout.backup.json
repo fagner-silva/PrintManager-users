@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A3CEA90-38F0-7DDD-44E3-E04C060ACD08}|PrintManager.Users.Api\\PrintManager.Users.Api.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A3CEA90-38F0-7DDD-44E3-E04C060ACD08}|PrintManager.Users.Api\\PrintManager.Users.Api.csproj|solutionrelative:printmanager.users.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3CEA90-38F0-7DDD-44E3-E04C060ACD08}|PrintManager.Users.Api\\PrintManager.Users.Api.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A3CEA90-38F0-7DDD-44E3-E04C060ACD08}|PrintManager.Users.Api\\PrintManager.Users.Api.csproj|solutionrelative:printmanager.users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\.github\\workflows\\ci.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\ci.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\README.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|c:\\users\\fagne\\desktop\\projeto\\printmanager-users\\printmanager.users.application\\services\\companymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD28123-586E-74BB-AC05-B844C64E15BE}|PrintManager.Users.Application\\PrintManager.Users.Application.csproj|solutionrelative:printmanager.users.application\\services\\companymemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +50,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "PrintManager.Users.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\appsettings.json",
+              "RelativeToolTip": "PrintManager.Users.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T18:38:56.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PrintManager.Users.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PrintManager.Users.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T18:29:31.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-15T18:27:21.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ci.yml",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\.github\\workflows\\ci.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\ci.yml",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\.github\\workflows\\ci.yml",
+              "RelativeToolTip": ".github\\workflows\\ci.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-06-15T18:26:44.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-15T18:25:42.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "PrintManager.Users.Application\\Services\\UserService.cs",
@@ -47,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "CompanyService.cs",
               "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyService.cs",
               "RelativeDocumentMoniker": "PrintManager.Users.Application\\Services\\CompanyService.cs",
@@ -60,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ICompanyMemberService.cs",
               "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Interfaces\\ICompanyMemberService.cs",
               "RelativeDocumentMoniker": "PrintManager.Users.Application\\Interfaces\\ICompanyMemberService.cs",
@@ -73,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "CompanyMembersController.cs",
               "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Api\\Controllers\\CompanyMembersController.cs",
               "RelativeDocumentMoniker": "PrintManager.Users.Api\\Controllers\\CompanyMembersController.cs",
@@ -86,13 +171,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CompanyMemberService.cs",
               "DocumentMoniker": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
               "RelativeDocumentMoniker": "PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
               "ToolTip": "C:\\Users\\fagne\\Desktop\\Projeto\\PrintManager-users\\PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
               "RelativeToolTip": "PrintManager.Users.Application\\Services\\CompanyMemberService.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAUwNgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAkwMQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T17:46:14.097Z",
               "EditorCaption": ""

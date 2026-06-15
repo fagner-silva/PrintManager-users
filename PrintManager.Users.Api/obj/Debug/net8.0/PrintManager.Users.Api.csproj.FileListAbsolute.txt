@@ -202,3 +202,4 @@ C:\Users\fagne\Desktop\Projeto\PrintManager-users\PrintManager.Users.Api\obj\Deb
 C:\Users\fagne\Desktop\Projeto\PrintManager-users\PrintManager.Users.Api\obj\Debug\net8.0\PrintManager.Users.Api.genruntimeconfig.cache
 C:\Users\fagne\Desktop\Projeto\PrintManager-users\PrintManager.Users.Api\obj\Debug\net8.0\ref\PrintManager.Users.Api.dll
 C:\Users\fagne\Desktop\Projeto\PrintManager-users\PrintManager.Users.Api\bin\Debug\net8.0\Refit.dll
+C:\Users\fagne\Desktop\Projeto\PrintManager-users\PrintManager.Users.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
