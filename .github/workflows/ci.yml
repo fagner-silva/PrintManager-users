@@ -20,10 +20,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-        run: dotnet restore PrintManager.Users.sln
+        run: dotnet restore PrintManager.Users.slnx
 
       - name: Build
-        run: dotnet build PrintManager.Users.sln --configuration Release --no-restore
+        run: dotnet build PrintManager.Users.slnx --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test PrintManager.Users.sln --configuration Release --no-build --verbosity normal
+        run: dotnet test PrintManager.Users.slnx --configuration Release --no-build --verbosity normal
