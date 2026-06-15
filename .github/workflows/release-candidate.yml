@@ -1,0 +1,52 @@
+name: Create Release PR After Develop Merge
+
+on:
+  pull_request:
+    branches:
+      - develop
+    types:
+      - closed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-release-pr:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: develop
+          fetch-depth: 0
+
+      - name: Generate release version
+        id: version
+        run: |
+          VERSION="v0.1.${{ github.run_number }}"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create Git tag
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git tag ${{ steps.version.outputs.version }}
+          git push origin ${{ steps.version.outputs.version }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: Release ${{ steps.version.outputs.version }}
+          generate_release_notes: true
+
+      - name: Create PR develop to main
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: develop
+          destination_branch: main
+          pr_title: "[render preview] Release ${{ steps.version.outputs.version }}"
+          pr_body: "Release candidate generated automatically after merge into develop."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
