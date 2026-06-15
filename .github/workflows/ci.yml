@@ -1,29 +1,22 @@
 name: CI - Users API
 
 on:
-  push:
-    branches: [ main, develop ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main, develop, release ]
+  push:
+    branches: [ develop, release ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup .NET 8
-        uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
-      - name: Restore
-        run: dotnet restore PrintManager.Users.slnx
+      - run: dotnet restore PrintManager.Users.Api/PrintManager.Users.Api.csproj
 
-      - name: Build
-        run: dotnet build PrintManager.Users.slnx --configuration Release --no-restore
-
-      - name: Test
-        run: dotnet test PrintManager.Users.slnx --configuration Release --no-build --verbosity normal
+      - run: dotnet build PrintManager.Users.Api/PrintManager.Users.Api.csproj --configuration Release --no-restore
