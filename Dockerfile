@@ -3,7 +3,7 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore PrintManager.Users.sln
+RUN dotnet restore PrintManager.Users.slnx
 RUN dotnet publish PrintManager.Users.Api/PrintManager.Users.Api.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
